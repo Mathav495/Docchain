@@ -26,7 +26,7 @@
 
     <div class="flex items-center justify-center">
       <img
-        src="\Assets\doc.png"
+        src="\assets\icon.png"
         class=" mr-2 inline-block align-top"
         width="30"
         height="30"
