@@ -48,6 +48,7 @@ export default {
         }),
       ],
       compilerOptions: {
+        hydratable: true,
         // enable run-time checks when not in production
         dev: !production,
       },
