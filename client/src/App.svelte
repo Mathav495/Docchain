@@ -2,7 +2,7 @@
   import LoginPage from "./Pages/LoginPage.svelte"
   import Dashboard from "./Pages/Dashboard.svelte"
   import { Route, Router } from "svelte-routing"
-  export const url = ""
+  export let url = ""
 </script>
 
 <Router {url}>
