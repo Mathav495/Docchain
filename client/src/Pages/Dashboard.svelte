@@ -1,14 +1,18 @@
-<div class="h-screen w-screen bg-black px-5 text-gray-300">
-  <div class="flex flex-row items-center">
-    <div class="flex w-1/6 justify-start py-5">
+<script>
+</script>
+
+<div class="h-screen w-screen bg-black text-gray-300">
+  <div class="flex flex-row items-center shadow-sm shadow-red-500">
+    <div class="flex w-1/4  cursor-pointer justify-start px-5 py-5 lg:w-1/6">
+      <img src="assets\icon2.png" alt="icon" class="animate-pulse" />
       <h1 class="fond-bold text-xl">Docchain.io</h1>
     </div>
-    <div class="flex w-5/6 items-center justify-between py-5">
-      <div class="flex flex-row items-center gap-2">
+    <div class="flex w-3/4  items-center justify-between px-5 py-5 lg:w-5/6">
+      <div class="flex flex-row items-center justify-end gap-2">
         <img
           src="assets\profile.jpg"
           alt="profile"
-          class="h-10 w-10 rounded-md" />
+          class="h-10 w-10 cursor-pointer rounded-md" />
         <div class="flex flex-col">
           <h1 class="text-sm font-thin">Welcome,</h1>
           <p>User1</p>
