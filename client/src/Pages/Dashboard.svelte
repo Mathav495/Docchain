@@ -1,2 +1,34 @@
-<h1>Dashboard page!!</h1>
-<a href="publish">proceed</a>
+<div class="h-screen w-screen bg-black px-5 text-gray-300">
+  <div class="flex flex-row items-center">
+    <div class="flex w-1/6 justify-start py-5">
+      <h1 class="fond-bold text-xl">Docchain.io</h1>
+    </div>
+    <div class="flex w-5/6 items-center justify-between py-5">
+      <div class="flex flex-row items-center gap-2">
+        <img
+          src="assets\profile.jpg"
+          alt="profile"
+          class="h-10 w-10 rounded-md" />
+        <div class="flex flex-col">
+          <h1 class="text-sm font-thin">Welcome,</h1>
+          <p>User1</p>
+        </div>
+      </div>
+      <div
+        class="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-red-700 hover:text-white">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="flex h-6 w-6">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
