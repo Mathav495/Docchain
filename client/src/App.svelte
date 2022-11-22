@@ -2,6 +2,7 @@
 import LoginPage from "./Pages/LoginPage.svelte"
 import Dashboard from "./Pages/Dashboard.svelte"
 import { Route, Router } from "svelte-routing"
+import Publishdoc from "./Pages/Publishdoc.svelte"
 export const url = ""
 </script>
 
@@ -9,7 +10,7 @@ export const url = ""
   <main>
     <Route path="/"><LoginPage /></Route>
     <Route path="Dash"><Dashboard /></Route>
-    <Route path="publish"><Dashboard /></Route>
+    <Route path="publish"><Publishdoc /></Route>
   </main>
 </Router>
 
