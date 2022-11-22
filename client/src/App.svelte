@@ -9,6 +9,7 @@ export const url = ""
   <main>
     <Route path="/"><LoginPage /></Route>
     <Route path="Dash"><Dashboard /></Route>
+    <Route path="publish"><Dashboard /></Route>
   </main>
 </Router>
 
