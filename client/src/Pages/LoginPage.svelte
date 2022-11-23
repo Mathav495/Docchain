@@ -1,7 +1,6 @@
 <script>
   import axios from "axios"
   let Email, password
-  let a = 10
   const onLogin = async () => {
     console.log(Email)
     console.log(password)
